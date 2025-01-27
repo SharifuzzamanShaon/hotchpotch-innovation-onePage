@@ -1,13 +1,13 @@
 import React from "react";
 import TrileButton from "../Modules/TrileButton";
 import BorderLine from "../Modules/BorderLine";
+import Image from "next/image";
 
 const HeroSection = () => {
   return (
     <>
       <div className="text-white min-h-screen flex items-center justify-center px-4 pt-12 sm:pt-20">
-        {/* Hero Section */}
-        <section className="text-center py-12 sm:py-20 z-10 font-outfit">
+        <section className="text-center py-12 sm:py-20 z-10 font-outfit flex flex-col items-center justify-center">
           <h1 className="text-3xl sm:text-5xl leading-[50px] sm:leading-[66px] font-medium text-center mb-4">
             Write better content for your
           </h1>
@@ -18,14 +18,17 @@ const HeroSection = () => {
             Artificial intelligence writing tool helps you create blogs,
             <br /> social media websites, and much more.
           </p>
-          <div className="space-x-4 sm:space-x-6 flex flex-col sm:flex-row items-center justify-center">
+          <div className="space-y-4 sm:space-y-6 items-center justify-center">
+            {/* TrileButton will be above */}
             <TrileButton />
-            <button
-              className="px-8 py-3 text-lg rounded-md mt-4 sm:mt-0 border border-solid hover:bg-gray-700 transition-all duration-300
-              text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-purple-500
-              border-image-[linear-gradient(94.25deg,#2B59FF_0%,#BB2BFF_100%)] border-image-slice-1"
-            >
-              Watch A Demo
+            <button className="flex items-center space-x-2 px-4 ml-8 py-2 bg-gradient-to-r transition-all duration-300">
+              <Image
+                src="/content/playbtn.png"
+                width="20"
+                height="20"
+                alt="play-button"
+              />
+              <span>Watch A Demo</span>
             </button>
           </div>
         </section>
