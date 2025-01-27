@@ -33,7 +33,7 @@ const reviews = [
   },
   {
     name: "Guy Hawkins",
-    image: "/guy.jpg",
+    image: "/avater/Ellipse 12.png",
     review:
       "This is a top quality product. No need to think twice before making it live on the web.",
     tag: "#make_it_fast",
@@ -47,14 +47,14 @@ const reviews = [
   },
   {
     name: "Annette Black",
-    image: "/annette.jpg",
+    image: "/avater/Ellipse 13.png",
     review:
       "You made it so simple. My new site is so much faster and easier to work with than my old site. I just choose the page, make the change and click save.",
     tag: "#another",
   },
   {
     name: "Floyd Miles",
-    image: "/floyd.jpg",
+    image: "/avater/Ellipse 12.png",
     review:
       "My new site is so much faster and easier to work with than my old site. I just choose the page, make the change and click save.",
     tag: "#postcrafts",
@@ -72,7 +72,7 @@ const ClientReviews = () => {
             so much.
           </p>
 
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
             {reviews.map((review, index) => (
               <div
                 key={index}
@@ -83,15 +83,15 @@ const ClientReviews = () => {
                   <Image
                     src={review.image}
                     alt={review.name}
-                    width={50}
-                    height={50}
+                    width={40}
+                    height={40}
                     className="rounded-full mr-4"
                   />
                   <h3 className="font-bold text-xl">{review.name}</h3>
                 </div>
 
                 {/* Left-aligned review text */}
-                <p className="mb-4">{review.review}</p>
+                <p className="mb-4 text-start">{review.review}</p>
                 <p className="text-blue-400">{review.tag}</p>
               </div>
             ))}

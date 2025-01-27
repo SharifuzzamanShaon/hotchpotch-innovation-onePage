@@ -6,7 +6,7 @@ import Image from "next/image";
 const HeroSection = () => {
   return (
     <>
-      <div className="text-white min-h-screen flex items-center justify-center px-4 pt-12 sm:pt-20">
+      <div className="text-white min-h-screen flex items-center justify-center px-4 pt-12 sm:pt-20 mb-10">
         <section className="text-center py-12 sm:py-20 z-10 font-outfit flex flex-col items-center justify-center">
           <h1 className="text-3xl sm:text-5xl leading-[50px] sm:leading-[66px] font-medium text-center mb-4">
             Write better content for your

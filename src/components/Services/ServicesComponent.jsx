@@ -3,7 +3,7 @@ import React from "react";
 
 const ServicesComponent = () => {
   return (
-    <div className="bg-[#12141D] text-white min-h-screen flex items-center justify-center">
+    <div className="bg-[#12141D] text-white min-h-screen flex items-center justify-center mt-10">
       <div className="container mx-auto p-8">
         <h1 className="text-4xl font-bold text-center mb-12">
           Mixland helps you <br /> build beautiful websites
