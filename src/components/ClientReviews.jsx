@@ -63,41 +63,43 @@ const reviews = [
 
 const ClientReviews = () => {
   return (
-    <div className="bg-gray-900 text-white py-16">
-      <div className="container mx-auto text-center px-4">
-        <h2 className="text-4xl font-bold mb-4">What our customers say</h2>
-        <p className="text-lg mb-8">
-          Read why thousands of marketers, writers, and entrepreneurs love us so
-          much.
-        </p>
+    <>
+      <div className="bg-gray-900 text-white py-16">
+        <div className="container mx-auto text-center px-4">
+          <h2 className="text-4xl font-bold mb-4">What our customers say</h2>
+          <p className="text-lg mb-8">
+            Read why thousands of marketers, writers, and entrepreneurs love us
+            so much.
+          </p>
 
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
-          {reviews.map((review, index) => (
-            <div
-              key={index}
-              className="review bg-white text-black p-6 rounded-lg shadow-lg flex flex-col items-start"
-            >
-              {/* Row for image and name */}
-              <div className="flex items-center mb-4">
-                <Image
-                  src={review.image}
-                  alt={review.name}
-                  width={50}
-                  height={50}
-                  className="rounded-full mr-4"
-                />
-                <h3 className="font-bold text-xl">{review.name}</h3>
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
+            {reviews.map((review, index) => (
+              <div
+                key={index}
+                className="review bg-white text-black p-6 rounded-lg shadow-lg flex flex-col items-start"
+              >
+                {/* Row for image and name */}
+                <div className="flex items-center mb-4">
+                  <Image
+                    src={review.image}
+                    alt={review.name}
+                    width={50}
+                    height={50}
+                    className="rounded-full mr-4"
+                  />
+                  <h3 className="font-bold text-xl">{review.name}</h3>
+                </div>
+
+                {/* Left-aligned review text */}
+                <p className="mb-4">{review.review}</p>
+                <p className="text-blue-400">{review.tag}</p>
               </div>
-
-              {/* Left-aligned review text */}
-              <p className="mb-4">{review.review}</p>
-              <p className="text-blue-400">{review.tag}</p>
-            </div>
-          ))}
+            ))}
+          </div>
         </div>
       </div>
-      <BorderLine/>
-    </div>
+      <BorderLine />
+    </>
   );
 };
 
