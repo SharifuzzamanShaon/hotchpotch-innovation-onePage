@@ -11,7 +11,7 @@ export default function AIContentTwo() {
         {/* Left Column - 40% */}
         <div className="w-full lg:w-[50%] p-4">
           <div className="max-w-md mx-auto lg:w-3/4 text-left">
-            <h2 className="text-2xl lg:text-3xl font-extrabold mb-6 text-white">
+            <h2 className="text-2xl lg:text-3xl font-extrabold mb-6 text-white font-outfit">
             Write what you want to convey through clear, & authentic writing
             </h2>
             <p className="text-base lg:text-lg mb-8 text-gray-300">

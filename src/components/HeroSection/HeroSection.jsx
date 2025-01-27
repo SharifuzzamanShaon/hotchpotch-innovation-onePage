@@ -14,7 +14,7 @@ const HeroSection = () => {
           <h2 className="text-4xl sm:text-6xl leading-[50px] sm:leading-[66px] font-extrabold text-orange-500 text-center underline underline-offset-4 decoration-skip-ink-none mb-4">
             Facebook Ads
           </h2>
-          <p className="text-base sm:text-lg mb-6 my-8">
+          <p className="text-base sm:text-lg mb-6 my-8 font-outfit">
             Artificial intelligence writing tool helps you create blogs,
             <br /> social media websites, and much more.
           </p>

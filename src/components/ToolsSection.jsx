@@ -57,10 +57,10 @@ export default function ToolsSection() {
     <>
       <div className="py-8">
         <div className="max-w-6xl mx-auto text-center text-white px-6 mb-10">
-          <h2 className="text-4xl font-extrabold mb-8">
+          <h2 className="text-4xl font-extrabold mb-8 font-outfit">
             54 exciting writing tools
           </h2>
-          <p className="text-lg mb-12">
+          <p className="text-md mb-12 font-inter">
             AI engines take information from various sources and read <br />
             them like a human would do.
           </p>

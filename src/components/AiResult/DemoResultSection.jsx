@@ -14,7 +14,7 @@ const DemoResultSection = () => {
         />
       </div>
 
-      <div className="bg-white p-6 rounded-lg shadow-xl relative z-10">
+      <div className="bg-white p-6 rounded-lg shadow-xl relative z-10 font-Inter">
         <h2 className="text-lg md:text-xl font-semibold text-gray-800 mb-4">
           Results
         </h2>

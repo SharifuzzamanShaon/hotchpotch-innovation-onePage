@@ -14,7 +14,7 @@ export default function CustomersSections() {
 
   return (
     <div className=" py-4">
-      <div className="mx-auto max-w-[940px] px-4 sm:px-6 lg:px-8">
+      <div className="mx-auto max-w-[940px] px-4 sm:px-6 lg:px-8 font-outfit">
         <div className="text-center py-14">
           <h2 className="text-white text-xl font-medium">
             Trusted by nearly 5000+ paying customers

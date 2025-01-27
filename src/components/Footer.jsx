@@ -22,7 +22,7 @@ const Footer = () => {
       {/* Desktop View */}
       <div className="hidden md:flex flex-col md:flex-row justify-between items-center mt-16 mb-6">
         <div className="mb-6 md:mb-0">
-          <h3 className="text-xl font-bold mb-4">Company</h3>
+          <h3 className="text-sm font-bold mb-4">Company</h3>
           <ul className="space-y-2">
             <li><Link href="/about">About</Link></li>
             <li><Link href="/features">Features</Link></li>
@@ -31,7 +31,7 @@ const Footer = () => {
           </ul>
         </div>
         <div className="mb-6 md:mb-0">
-          <h3 className="text-xl font-bold mb-4">Help</h3>
+          <h3 className="text-md font-bold mb-4">Help</h3>
           <ul className="space-y-2">
             <li><Link href="/customer-support">Customer Support</Link></li>
             <li><Link href="/delivery-details">Delivery Details</Link></li>
@@ -40,7 +40,7 @@ const Footer = () => {
           </ul>
         </div>
         <div className="mb-6 md:mb-0">
-          <h3 className="text-xl font-bold mb-4">Resources</h3>
+          <h3 className="text-md font-bold mb-4">Resources</h3>
           <ul className="space-y-2">
             <li><Link href="/free-resources">Free Resources</Link></li>
             <li><Link href="/blog">Blog</Link></li>
@@ -49,7 +49,7 @@ const Footer = () => {
           </ul>
         </div>
         <div className="mb-6 md:mb-0">
-          <h3 className="text-xl font-bold mb-4">Links</h3>
+          <h3 className="text-md font-bold mb-4">Links</h3>
           <ul className="space-y-2">
             <li><Link href="/free-eBook">Free eBooks</Link></li>
             <li><Link href="/Development-Tutorial">Development Tutorial</Link></li>

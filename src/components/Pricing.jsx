@@ -63,10 +63,10 @@ const Pricing = () => {
 
   return (
     <div className="text-white py-16">
-      <h2 className="text-4xl text-center font-bold mb-4">
+      <h2 className="text-4xl text-center font-bold mb-4 font-outfit">
         Make the wise decision for your business
       </h2>
-      <p className="text-lg text-center mb-8">
+      <p className="text-lg text-center mb-8 font-inter">
         Choose from our affordable 3 packages
       </p>
       <div className="flex flex-wrap justify-center max-w-[1200px] mx-auto">
