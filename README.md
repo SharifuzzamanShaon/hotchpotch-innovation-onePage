@@ -2,6 +2,9 @@
 
 Hotchpotch Innovation is a single-page application built using Next.js. It serves as a platform to showcase innovative projects and ideas, highlighting their features and benefits. The project is designed with responsiveness in mind, ensuring an optimal experience across devices.
 
+
+<img width="1253" alt="Screenshot 2025-02-19 at 12 51 32 PM" src="https://github.com/user-attachments/assets/a3dae13b-9f97-4f9e-8e2a-544108d22f94" />
+
 ## Live Link
 
 You can view the live application here: [Hotchpotch Innovation](https://hotchpotch-innovation.vercel.app/)
